@@ -20,7 +20,7 @@ class ForexDataClient
         $this->api_key = $api_key;
 
         $this->client = new Client([// Base URI is used with relative requests
-                                    'base_uri' => 'http://forex.1forge.com/1.0.3/',
+                                    'base_url' => 'https://forex.1forge.com/1.0.3/',
                                     'timeout'  => 5.0,
                                     'headers'  => ['Content-Type' => 'application/json']]);
 

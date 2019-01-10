@@ -1,5 +1,5 @@
 {
-  "name": "oneforge/forexquotes",
+  "name": "naoki85/forexquotes",
   "type": "library",
   "version": "2.0.10",
   "description": "Library to fetch and parse realtime Forex quotes and convert currencies",
@@ -18,7 +18,7 @@
     }
   ],
   "require": {
-    "guzzlehttp/guzzle": "6.3.*",
+    "guzzlehttp/guzzle": "^5",
     "php": ">=5.6.4",
     "wisembly/elephant.io": "^3.3"
   },
